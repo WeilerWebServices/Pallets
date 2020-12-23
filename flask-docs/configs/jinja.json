@@ -1,0 +1,41 @@
+{
+  "id": "jinja",
+  "name": "Jinja2",
+  "doc_path": "./docs",
+  "default_url_prefix": "/docs",
+  "pygments_style": "jinja_theme_support.JinjaStyle",
+  "sidebars": {
+    "index": ["sidebarlogo.html", "sidebarintro.html", "sidebarversions.html",
+              "searchbox.html"],
+    "**": ["sidebarlogo.html", "localtoc.html", "sidebarversions.html",
+           "relations.html", "searchbox.html"]
+  },
+  "theme": "jinja",
+  "theme_path": "../themes",
+  "versions": [
+    {
+      "slug": "dev",
+      "type": "unstable",
+      "title": "Development",
+      "note": "unstable",
+      "version": "2.11.dev",
+      "repo": "https://github.com/pallets/jinja@master",
+      "warning": "This is the documentation for the development version of Jinja2"
+    },
+    {
+      "slug": "2.10",
+      "type": "stable",
+      "title": "Jinja 2.10.x",
+      "note": "stable",
+      "version": "2.10",
+      "repo": "https://github.com/pallets/jinja@2.10"
+    },
+    {
+      "slug": "2.9",
+      "title": "Jinja 2.9.x",
+      "note": null,
+      "version": "2.9",
+      "repo": "https://github.com/pallets/jinja2@2.9.6"
+    }
+  ]
+}

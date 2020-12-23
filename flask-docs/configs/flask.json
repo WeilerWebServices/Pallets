@@ -1,0 +1,42 @@
+{
+  "id": "flask",
+  "name": "Flask",
+  "doc_path": "./docs",
+  "default_url_prefix": "/docs",
+  "new_theme": true,
+  "pre_build_steps": [
+    "pip install -U sphinx sphinxcontrib-log-cabinet pallets-sphinx-themes"
+  ],
+  "sidebars": {
+    "index": ["sidebarintro.html", "sidebarversions.html", "searchbox.html"],
+    "**": ["sidebarlogo.html", "localtoc.html", "sidebarversions.html",
+           "relations.html", "searchbox.html"]
+  },
+  "theme": "flask",
+  "theme_path": "../themes",
+  "versions": [
+    {
+      "slug": "dev",
+      "type": "unstable",
+      "title": "Development",
+      "note": "unstable",
+      "version": "1.1.dev",
+      "repo": "https://github.com/pallets/flask@master"
+    },
+    {
+      "slug": "1.0",
+      "type": "stable",
+      "title": "Flask 1.0",
+      "note": "stable",
+      "version": "1.0.2",
+      "repo": "https://github.com/pallets/flask@1.0-maintenance"
+    },
+    {
+      "slug": "0.12",
+      "title": "Flask 0.12",
+      "note": null,
+      "version": "0.12.4",
+      "repo": "https://github.com/pallets/flask@0.12-maintenance"
+    }
+  ]
+}

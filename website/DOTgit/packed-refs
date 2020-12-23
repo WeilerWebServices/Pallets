@@ -1,0 +1,10 @@
+# pack-refs with: peeled fully-peeled sorted 
+5b73e474ced53c743ae0980e3ffbf138b51634c9 refs/remotes/origin/dependabot/npm_and_yarn/webpack/bootstrap-3.4.1
+cb408ef6a98df1ac37dc37595f7df85151670071 refs/remotes/origin/dependabot/npm_and_yarn/webpack/bootstrap-sass-3.4.1
+d2bcf886ab12e93e3147df39499180993e2136c7 refs/remotes/origin/dependabot/npm_and_yarn/webpack/elliptic-6.5.3
+948349014441c38ff2d2478acd01a7966c42c4aa refs/remotes/origin/dependabot/npm_and_yarn/webpack/jquery-3.5.0
+0489d06e220dc9e1da197dd72fe28b314e265ad1 refs/remotes/origin/dependabot/npm_and_yarn/webpack/lodash-4.17.19
+ea5830a496b5162c325ebc9909282c792fb7b06c refs/remotes/origin/dependabot/npm_and_yarn/webpack/lodash.mergewith-4.6.2
+bb0159cf661fc9a07793ff23c340a8a4e4464c17 refs/remotes/origin/dependabot/npm_and_yarn/webpack/macaddress-0.2.9
+6dafe98c8cce67eab786a8ff26dfdf890f27d3de refs/remotes/origin/dependabot/npm_and_yarn/webpack/node-sass-4.13.1
+1e7f06a6d97b7b4cb2443e89b3ed4fb7e02571d2 refs/remotes/origin/master

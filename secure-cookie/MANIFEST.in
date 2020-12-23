@@ -1,0 +1,7 @@
+include CHANGES.rst
+include noxfile.py
+include requirements/*.txt
+graft docs
+prune docs/_build
+graft tests
+global-exclude *.pyc
